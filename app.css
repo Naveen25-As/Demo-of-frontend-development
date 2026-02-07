@@ -1,0 +1,55 @@
+.body{
+    background-color: black;
+}
+.bot{
+    background: linear-gradient(135deg,#51b5ea, #1870ff);
+   
+    height: 400px;
+    width: 100%;
+    font-size:xx-large;
+    color: white;
+}
+.cat{
+    font-size:70px;
+    color: white;
+}
+.do{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 20px;
+border: none;
+transition: 0.3s;
+}
+.do:hover{
+    background-color: #0d6efd;
+    transform: scale(1.05);
+box-shadow: 0 0 10px #0d6efd;
+}
+
+
+.niki{
+    background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+   box-shadow: 0px 2px 15px rgb(0, 0, 0);
+   border: 2px solid rgb(255, 255, 255);
+   height: 530px;
+   padding: 15px;
+   transition: 0.3s;
+}
+.niki:hover{
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 0 25px rgba(0, 174, 255, 0.6);
+}
+
+
+.name{
+    margin-bottom: 10px;
+}
+.run{
+    margin-left: 20px;
+    color: rgb(33, 33, 250);
+}
+.kan{
+    border-color:2PX solid black;
+}
