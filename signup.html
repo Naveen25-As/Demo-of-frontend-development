@@ -11,17 +11,25 @@
 <body style="background-color: rgb(242, 234, 234);">
 
     <div class="w">
-        <form class="div" action="index.html" method="post">
+        <form class="div" id="signupForm">
+
             <label>Name:</label><br>
             <input type="text" name="name" placeholder="Name" required><br><br>
 
             <label>Mobile Number:</label><br>
             <input type="tel" name="number" placeholder="Number" required><br><br>
-            <a href="index.html">
-                <button type="submit" class="co">Sign up</button>
-            </a>
+
+            <button type="submit" class="co">Sign Up</button>
+
         </form>
     </div>
+
+    <script>
+        document.getElementById("signupForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent POST request
+            window.location.href = "index.html";
+        });
+    </script>
 
 </body>
 

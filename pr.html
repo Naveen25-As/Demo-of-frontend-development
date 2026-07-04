@@ -1,36 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
+<form class="div" id="loginForm">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="n.css">
-</head>
+    <label>Email:</label><br>
+    <input type="email" name="email" placeholder="Email" required><br><br>
 
-<body style="background-color: rgb(246, 229, 242);">
+    <label>Password:</label><br>
+    <input type="password" name="password" placeholder="Password" required><br><br>
 
-    <div class="w">
-        <form class="div" action="index.html" method="post">
+    <button type="submit" class="co">Log in</button>
 
-            <label>Email:</label><br>
-            <input type="email" name="email" placeholder="Email" required><br><br>
+    <button type="button" class="co" onclick="location.href='signup.html'">
+        Sign up
+    </button>
 
-            <label>Password:</label><br>
-            <input type="password" name="password" placeholder="Password" required><br><br>
+</form>
 
-            <a href="index.html">
-                <button type="submit" class="co">Log in</button>
-            </a>
-
-
-            <a href="signup.html">
-                <button type="button" class="co">Sign up</button>
-            </a>
-
-        </form>
-    </div>
-
-</body>
-
-</html>
+<script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Stop POST request
+        window.location.href = "index.html";
+    });
+</script>
