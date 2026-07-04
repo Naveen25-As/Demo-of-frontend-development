@@ -1,28 +1,57 @@
-**Kevin OTT Platform**
-Kevin is a simple OTT (Over-The-Top) web platform project developed using HTML, CSS, and Bootstrap.
-This project demonstrates the basic design of a movie streaming website similar to popular platforms like Netflix or Amazon Prime.
+# Demo of Front-End Development
 
-**🚀 Features**
-Responsive design using Bootstrap
-Attractive navigation bar
-Login and signup pages
-🛠️ Technologies Used
-HTML
-CSS
-Bootstrap
+This repository contains a collection of front-end web development projects built to practice and demonstrate core web development concepts. Each project focuses on creating responsive, user-friendly interfaces using modern web technologies.
 
-**Purpose of the Project**
-The main purpose of this project is to practice front-end web development and understand how OTT platforms structure their user interface.
+## 🚀 Features
 
-**Future Improvements**
-Add JavaScript functionality
-Movie search feature
-User authentication
-Backend integration
-Database for storing movies and users
+* Responsive and mobile-friendly layouts
+* Clean and organized project structure
+* Interactive user interface designs
+* Multiple mini front-end projects
+* Beginner-friendly code with easy-to-understand structure
 
-**Author**
-Naveen Asundi
+## 🛠️ Technologies Used
 
-**📜 License**
-This project is for educational purposes.
+* HTML5
+* CSS3
+* Bootstrap 5
+* JavaScript (in selected projects)
+
+## 📂 Projects Included
+
+Some of the projects in this repository include:
+
+* Kevin OTT Platform
+* Responsive Landing Pages
+* Login and Signup Forms
+* Navigation Bars
+* Cards and Grid Layouts
+
+> More projects will be added as I continue learning and improving my front-end development skills.
+
+## 🎯 Purpose of the Project
+
+This repository serves as my front-end development portfolio and learning journey. It helps me practice:
+
+* Building responsive websites
+* Writing clean and structured HTML and CSS
+* Using Bootstrap components effectively
+* Applying JavaScript for interactive web pages
+
+## 🔮 Future Improvements
+
+* Add more JavaScript-based interactive projects
+* Build complete responsive websites
+* Integrate APIs into front-end applications
+* Explore React and modern front-end frameworks
+* Improve accessibility and performance
+
+## 👨‍💻 Author
+
+**Naveen Asundi**
+
+* GitHub: https://github.com/Naveen25-As
+
+## 📜 License
+
+This repository is created for educational and learning purposes.
